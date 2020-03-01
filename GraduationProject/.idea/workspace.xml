@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6f74367-18b5-41db-8156-3abedb35b550" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/graduation-project-base/target/" />
+    <ignored path="$PROJECT_DIR$/graduation-project-web/target/" />
+    <ignored path="$PROJECT_DIR$/graduation-project-dao/target/" />
+    <ignored path="$PROJECT_DIR$/graduation-project-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1763601079">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="67" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="67" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="55" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/impl/GenericTreeManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/GenericManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/GenericTreeManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/impl/GenericManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/CorsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/DaoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/GenericFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/Ch2Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/rest/GenericTreeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/domain/BaseDomain.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/domain/BaseDomain.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/domain/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/Config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/domain/BaseDomain.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/dao/GenericTreeDao.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/impl/GenericTreeManagerImpl.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/rest/GenericController.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/rest/GenericTreeController.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/impl/GenericManagerImpl.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/GenericTreeManager.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/GenericManager.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/DaoConfig.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/Ch2Application.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/Ch2Application.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8 (1)" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="27" />
+    <option name="y" value="1" />
+    <option name="width" value="1346" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation-project-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation-project-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation-project-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation-project-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation-project-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GraduationProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="graduationprojectweb" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583065143750" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gp.lcw.sd.by.g3p.base" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i\Desktop\毕业设计\GraduationProject\graduation-project-web\src\main\java\gp\lcw\sd\by\g3p\base" />
+      <recent name="C:\Users\i\Desktop\毕业设计\GraduationProject\graduation-project-web\src\main\java\gp\lcw\sd\by\g3p" />
+      <recent name="C:\Users\i\Desktop\毕业设计\GraduationProject\graduation-project-web\src\main\resources" />
+      <recent name="C:\Users\i\Desktop\毕业设计\GraduationProject\graduation-project-web\src\main\java\gp\lcw\sd\base" />
+      <recent name="C:\Users\i\Desktop\毕业设计\GraduationProject\graduation-project-web\src\main\java\children\in\the\same\city\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Ch2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="graduationprojectweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gp.lcw.sd.by.g3p.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gp.lcw.sd.by.g3p.base.Ch2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Ch2Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6f74367-18b5-41db-8156-3abedb35b550" name="Default Changelist" comment="" />
+      <created>1582958651997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582958651997</updated>
+      <workItem from="1582958654026" duration="5159000" />
+      <workItem from="1583064634144" duration="422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5581000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="27" y="1" width="1346" height="734" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534992" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/graduation-project-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/domain/BaseTreeEntity.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/rest/GenericTreeController.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/service/impl/GenericTreeManagerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/dao/GenericTreeDao.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/dao/GenericDao.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/rest/GenericController.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/service/impl/GenericManagerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/service/GenericManager.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/domain/BaseDomain.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/children/in/the/same/city/web/base/config/GenericFilter.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/domain/BaseTreeEntity.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/rest/GenericTreeController.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/service/impl/GenericTreeManagerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/dao/GenericTreeDao.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/dao/GenericDao.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/rest/GenericController.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/service/impl/GenericManagerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/service/GenericManager.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/domain/BaseDomain.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/base/base/config/GenericFilter.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/Config/DaoConfig.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/Config/CorsConfig.java" />
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraduationProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#repository#1;n#repositories#0;n#project#0;n#!!top" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
+            <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/dao/GenericTreeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/domain/BaseDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/domain/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/domain/BaseTreeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/rest/GenericController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/rest/GenericTreeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/GenericTreeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/GenericManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/impl/GenericTreeManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/service/impl/GenericManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/DaoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/GenericFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/Ch2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/Ch2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>graduationprojectweb:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>graduationprojectweb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
