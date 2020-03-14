@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="graduation-project-base" />
+        <module name="graduation-project-dao" />
+        <module name="graduation-project-service" />
+        <module name="graduation-project-web" />
         <module name="graduationprojectbase" />
         <module name="graduationprojectdao" />
         <module name="graduationprojectservice" />
