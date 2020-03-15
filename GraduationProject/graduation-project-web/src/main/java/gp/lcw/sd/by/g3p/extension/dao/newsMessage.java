@@ -23,7 +23,6 @@ public class newsMessage extends BaseEntity {
     @Column
     String newsAuthor;//作者
 
-
     @Column
     String newsType;//类型
 
@@ -39,7 +38,7 @@ public class newsMessage extends BaseEntity {
     @Column
     String topFlag;//置顶标志
 
-
-
+    @Column
+    String clickNumber;//点击数量
 
 }

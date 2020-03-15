@@ -28,4 +28,12 @@ public class users extends BaseEntity {
     @Column
     String user_LoginFlag;//登录标志
 
+    @Column
+    String user_City;//所在城市
+
+    @Column
+    String user_tel;//电话号码
+
+
+
 }
