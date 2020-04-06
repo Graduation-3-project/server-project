@@ -32,8 +32,12 @@ public class users extends BaseEntity {
     String user_City;//所在城市
 
     @Column
-    String user_tel;//电话号码
+    String user_tel;//电话号码就是账号
 
+    @Column
+    String user_register_code;//注册参数
 
+    @Column
+    String user_password;//密码
 
 }

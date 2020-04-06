@@ -23,8 +23,8 @@ public class message extends BaseEntity {
     @Column
     String message_content;//内容
 
-    @Column
-     List<String> message_comment=new ArrayList<>();//评论
+    //@Column
+     //List<String> message_comment=new ArrayList<>();//评论
 
     @Column
     String message_type;//种类
