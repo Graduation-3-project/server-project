@@ -5,16 +5,15 @@ import gp.lcw.sd.by.g3p.base.domain.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 
 @Getter
 @Setter
 @Table(name = "newsMessage")
 @Entity
-public class newsMessage extends BaseEntity {
+public class newsMessage extends BaseEntity{
+
 
     @Column
     String newsTitle;//标题
@@ -39,4 +38,8 @@ public class newsMessage extends BaseEntity {
 
     @Column
     String clickNumber;//点击数量
+
+    @ManyToOne
+    @JoinColumn(name = "news_pageId")
+    news news;
 }
