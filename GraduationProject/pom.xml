@@ -59,8 +59,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
 
-        <!--   <spring-cloud.version>Finchley.SR1</spring-cloud.version>-->
-
+          <!-- <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+-->
 
     </properties>
     <!--添加模块区域-->
@@ -68,22 +68,20 @@
 
     <!--添加依赖区域-->
     <dependencies>
-        <!-- <dependency>
-             <groupId>com.zaxxer</groupId>
-             <artifactId>HikariCP</artifactId>
-             <version>2.6.1</version>
-         </dependency>
 
+
+
+        <!--
          <dependency>
              <groupId>org.springframework.boot</groupId>
              <artifactId>spring-boot-starter-freemarker</artifactId>
          </dependency>
+
          <dependency>
              <groupId>com.alibaba</groupId>
              <artifactId>fastjson</artifactId>
              <version>1.2.47</version>
          </dependency>
-
 
          <dependency>
              <groupId>org.apache.commons</groupId>
@@ -91,30 +89,22 @@
              <version>3.8.1</version>
          </dependency>
 
- <dependency>
+         <dependency>
              <groupId>javax.xml.bind</groupId>
              <artifactId>jaxb-api</artifactId>
              <version>2.3.0</version>
          </dependency>
+
          <dependency>
              <groupId>javax.activation</groupId>
              <artifactId>activation</artifactId>
              <version>1.1.1</version>
          </dependency>
-         <dependency>
-             <groupId>mysql</groupId>
-             <artifactId>mysql-connector-java</artifactId>
-             <version>5.1.46</version>
-             <scope>runtime</scope>
-         </dependency>
-         &lt;!&ndash;引入lombok依赖可直接使用log.info()&ndash;&gt;
-         <dependency>
-             <groupId>org.projectlombok</groupId>
-             <artifactId>lombok</artifactId>
-             <version>1.18.2</version>
-             <scope>provided</scope>
-         </dependency>
- -->
+       -->
+     <!--   <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>-->
 
         <dependency>
             <!--测试用-->
@@ -122,6 +112,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <!--数据库连接-->
             <groupId>com.zaxxer</groupId>
@@ -129,16 +120,12 @@
             <version>2.6.1</version>
         </dependency>
 
-
-
-
-
-
         <dependency>
             <groupId>com.spring4all</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>
             <version>1.6.0.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -150,38 +137,12 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.9.0</version>
         </dependency>
-        <!-- <dependency>
-             <groupId>javax.xml.bind</groupId>
-             <artifactId>jaxb-api</artifactId>
-             <version>2.3.0</version>
-         </dependency>-->
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
-
-        <!--   <dependency>
-               <groupId>org.springframework.boot</groupId>
-               <artifactId>spring-boot-starter-actuator</artifactId>
-               <version>2.0.0.RELEASE</version>
-
-           </dependency>--><!--这是配置spring boot监控和管理服务-->
-
-        <!--
-        <dependency>
-           <groupId>javax.servlet</groupId>
-           <artifactId>servlet-api</artifactId>
-           <version>2.5</version>
-           <scope>provided</scope>
-        </dependency
-        -->
-
-
-
-
-
-
 
         <dependency>
             <!--集成jpa使用实体用-->
@@ -201,7 +162,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <!--<scope>provided</scope>-->
+           <!-- <scope>provided</scope>-->
             <scope>compire</scope>
         </dependency>
 
@@ -211,6 +172,7 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -222,7 +184,6 @@
             </exclusions>
         </dependency>
 
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -230,19 +191,52 @@
             <scope>provided</scope>
             <!--用@Getter和@Setter-->
         </dependency>
-        <!--  <dependency>
+
+        <!--  引入lombok依赖可直接使用log.info()
+       <dependency>
+           <groupId>org.projectlombok</groupId>
+           <artifactId>lombok</artifactId>
+           <version>1.18.2</version>
+           <scope>provided</scope>
+       </dependency>
+     -->
+
+  <!--
+
+        <dependency>
               <groupId>org.springframework.cloud</groupId>
               <artifactId>spring-cloud-config-server</artifactId>
-          </dependency>-->
+        </dependency>
+    -->
 
+        <!--这是配置spring boot监控和管理服务-->
+        <!-- <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-actuator</artifactId>
+             <version>2.0.0.RELEASE</version>
+         </dependency>-->
 
+        <!--spring cloud eureka依赖-->
+     <!--   <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter</artifactId>
+        </dependency>
 
-        <!--   <dependency>
-               <groupId>org.eclipse.jgit</groupId>
-               <artifactId>org.eclipse.jgit</artifactId>
-               <version>4.8.0.201706111038-r</version>
-           </dependency>-->
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+        </dependency>
+-->
+        <!--eureka 服务端依赖-->
+       <!-- <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>-->
+       <!-- eureka客户端依赖-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
     <!--添加依赖区域-->
 
@@ -251,22 +245,23 @@
     <!--版本管理区域-->
     <dependencyManagement>
 
-
+           <!--配置Eureka-->
         <!--管理spring cloud版本-->
         <dependencies>
+<!--
 
-
-            <!-- <dependency>
+             <dependency>
                  <groupId>org.springframework.cloud</groupId>
                  <artifactId>spring-cloud-dependencies</artifactId>
                  <version>Finchley.RELEASE</version>
+                 &lt;!&ndash;<version>${spring-cloud.version}</version>&ndash;&gt;
                  <type>pom</type>
                  <scope>import</scope>
              </dependency>
- -->
-
+-->
 
         </dependencies>
+
     </dependencyManagement>
     <!--版本管理区域-->
     <build>

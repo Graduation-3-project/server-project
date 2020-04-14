@@ -19,7 +19,6 @@ public class newsMessage extends BaseEntity {
     @Column
     String newsTitle;//标题
 
-
     @Column
     String newsAuthor;//作者
 
@@ -40,5 +39,4 @@ public class newsMessage extends BaseEntity {
 
     @Column
     String clickNumber;//点击数量
-
 }

@@ -15,7 +15,6 @@ public class DaoConfig {
     public DataSource datasource (Environment env) {
 
 
-
         System.out.println("数据库配置类1");
         HikariDataSource ds =new HikariDataSource();
         System.out.println("数据库配置类2");

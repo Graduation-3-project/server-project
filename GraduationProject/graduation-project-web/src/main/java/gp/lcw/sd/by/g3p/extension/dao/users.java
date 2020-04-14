@@ -14,30 +14,45 @@ import javax.persistence.Table;
 public class users extends BaseEntity {
 
     @Column
-    String user_Name;//姓名
+    String userName;//姓名
 
     @Column
-    String user_gender;//性别
+    String userGender;//性别
 
     @Column
-    String user_Age;//年龄
+    String userAge;//年龄
 
     @Column
-    String user_Type;//类型
+    String userType;//用户类型
 
     @Column
-    String user_LoginFlag;//登录标志
+    String userLoginFlag;//登录标志
 
     @Column
-    String user_City;//所在城市
+    String userCity;//所在城市
 
     @Column
-    String user_tel;//电话号码就是账号
+    String userTel;//电话号码就是账号
 
     @Column
-    String user_register_code;//注册参数
+    String userRegisterCode;//注册验证码
 
     @Column
-    String user_password;//密码
+    String userPassword;//密码
+
+    @Column
+    String userProfileUrl;//用户图像
+
+    @Column
+    String userRegisterFlag;//注册标志
+
+    @Column
+    String userScreenName;//用户昵称
+
+    @Column
+    String userPowerFlag;//用户 权限标志
+
+    @Column
+    String userSetCookiFlag;//是否记住密码标志
 
 }

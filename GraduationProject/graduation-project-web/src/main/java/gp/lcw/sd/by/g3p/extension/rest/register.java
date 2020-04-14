@@ -22,15 +22,33 @@ public class register {
      public users getVerificationCode(@RequestParam(name = "number",required = true) String number){
 
 
-        Random random = new Random();//默认构造方法
-        //Random randoms = new Random(1000);//指定种子数字
-       verificationCode = random.nextInt(1100000);
-        users users=new users();
-        users.setUser_tel(number);
-        users.setUser_register_code(String.valueOf(verificationCode));
-        userDaoOperate.save(users);
+        //userDaoOperate.findByUser_tel(number);
+        //System.out.println("输出通过电话号码查询结果"+userDaoOperate.findByUserTel(number));
+        if(userDaoOperate.findByUserTel(number)==null){
+            Random random = new Random();//默认构造方法
+            //Random randoms = new Random(1000);//指定种子数字
+            verificationCode = random.nextInt(1100000);
+            users users=new users();
+            users.setUserTel(number);
+            users.setUserRegisterCode(String.valueOf(verificationCode));
+            users.setUserRegisterFlag("false");
+            userDaoOperate.save(users);
+            return users;
 
-        return users;
+        }else{
+            // return   userDaoOperate.findByUserTel(number);
+
+            users users=userDaoOperate.findByUserTel(number);
+             if(users.getUserRegisterFlag().equals("false")){
+                 return users;
+             }
+             else {
+                 return null;
+             }
+
+
+
+        }
     }
     @RequestMapping( path = "/setPassword.json",method = RequestMethod.GET)
     @ResponseBody
@@ -41,16 +59,9 @@ public class register {
         users users;
 
         users=userDaoOperate.findById(id).get();
-        users.setUser_password(password);
-        System.out.println(   "输出的用户后端"+users);
+        users.setUserPassword(password);
+        users.setUserRegisterFlag("true");
         userDaoOperate.save(users);
-
-
-       // users.setUser_tel(number);
-
-       // users.setUser_register_code(String.valueOf(verificationCode));
-
-       // userDaoOperate.save(users);
 
         return 1;
     }
