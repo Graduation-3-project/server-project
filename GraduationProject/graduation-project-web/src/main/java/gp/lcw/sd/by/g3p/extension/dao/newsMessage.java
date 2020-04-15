@@ -21,10 +21,13 @@ public class newsMessage extends BaseEntity{
     @Column
     String newsAuthor;//作者
 
+
     @Column
     String newsType;//类型
 
-    @Column
+    @Lob
+    @Basic(fetch=FetchType.LAZY)
+    @Column(name = "newsContent",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写
     String newsContent;//内容
 
     @Column
