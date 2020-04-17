@@ -72,10 +72,7 @@
 
 
         <!--
-         <dependency>
-             <groupId>org.springframework.boot</groupId>
-             <artifactId>spring-boot-starter-freemarker</artifactId>
-         </dependency>
+
 
          <dependency>
              <groupId>com.alibaba</groupId>
@@ -107,12 +104,16 @@
         </dependency>-->
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+
+        <dependency>
             <!--测试用-->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <!--数据库连接-->
             <groupId>com.zaxxer</groupId>

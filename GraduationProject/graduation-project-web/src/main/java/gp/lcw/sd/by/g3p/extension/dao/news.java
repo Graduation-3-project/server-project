@@ -15,8 +15,6 @@ import java.util.Set;
 @Setter
 @Getter
 public class news  {
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long pageId;
@@ -25,14 +23,13 @@ public class news  {
      String newsPageVideoUrl;
 
     @Column
-    ArrayList<String> picsNewsMsg = new ArrayList<String>();
+    ArrayList<String> picsNewsMsg = new ArrayList<String>();//广告信息
 
+    @Column
+    ArrayList<String> specialNotice = new ArrayList<String>();//特殊通告
 
-   //  Set<String>picsNewsMsg=new HashSet<String>();
-
+    //  Set<String>picsNewsMsg=new HashSet<String>();
     @OneToMany(mappedBy = "news")
     Set<newsMessage>newsMessageSet=new HashSet<newsMessage>();
-
-
 
 }

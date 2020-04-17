@@ -27,10 +27,13 @@ public class newsMessage extends BaseEntity{
 
     @Lob
     @Basic(fetch=FetchType.LAZY)
-    @Column(name = "newsContent",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写
+    @Column(name = "newsContent",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写要加上name
     String newsContent;//内容
 
-    @Column
+
+    @Lob
+    @Basic(fetch = FetchType.LAZY)
+    @Column(name = "picsUrl", columnDefinition = "mediumblob")/*mediumblob一行可以存储16MB*/
     String picsUrl;//图片
 
     @Column
