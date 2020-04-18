@@ -216,8 +216,6 @@ public class newsMessageController extends GenericController<newsMessage,Long, n
             } catch (Exception e) {
                  return new Result().error();
             }
-
-
         }
              return new Result();
 

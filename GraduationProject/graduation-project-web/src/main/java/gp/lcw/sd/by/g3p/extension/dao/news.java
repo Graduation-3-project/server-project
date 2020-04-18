@@ -14,10 +14,10 @@ import java.util.Set;
 @Table(name = "news")
 @Setter
 @Getter
-public class news  {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long pageId;
+public class news  extends BaseEntity{
+    //@Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    //private Long pageId;
 
     @Column
      String newsPageVideoUrl;
@@ -31,5 +31,4 @@ public class news  {
     //  Set<String>picsNewsMsg=new HashSet<String>();
     @OneToMany(mappedBy = "news")
     Set<newsMessage>newsMessageSet=new HashSet<newsMessage>();
-
 }
