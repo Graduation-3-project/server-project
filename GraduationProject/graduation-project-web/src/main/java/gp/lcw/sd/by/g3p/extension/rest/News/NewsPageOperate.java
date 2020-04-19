@@ -9,11 +9,9 @@ import gp.lcw.sd.by.g3p.extension.serviceManager.newsMessageManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.util.ClassUtils;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import sun.misc.BASE64Encoder;
 
 
 import java.io.*;
@@ -21,8 +19,16 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.text.SimpleDateFormat;
+import java.util.Base64;
 import java.util.List;
 
+
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
 @RestController
 @RequestMapping("/newsPage")
 public class NewsPageOperate extends GenericController<news,Long, newsManager> {
@@ -37,7 +43,7 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
     @ResponseBody
     public String ads(@RequestParam("file") MultipartFile[] files) {
            String returnFlag;
-/*https://blog.csdn.net/weixin_44294593/article/details/103070687*/
+        /*https://blog.csdn.net/weixin_44294593/article/details/103070687*/
         String path="E:\\newsMessage\\Pic";
         File file=new File(path);
         if(!file.exists())//文件夹不存在就创建
@@ -52,7 +58,6 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
             returnFlag="上传失败";
             e.printStackTrace();
         }
-        news news=new news();
         //广告信息
         return returnFlag;
     }
@@ -65,7 +70,6 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
         news.setNewsPageVideoUrl(multipartFile.getOriginalFilename());
         newsDaoOperate.save(news);
        /*https://blog.csdn.net/qq_40979624/article/details/105293900*/
-
         //视频上传
         //获取原文件名
         String name=multipartFile.getOriginalFilename();
@@ -110,10 +114,12 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
 
     @RequestMapping("/specialNotice.json")
     @ResponseBody
-    public boolean specialNotice() {
+    public boolean specialNotice(@RequestParam(name = "content",required = true) String content) {
         boolean returnFlag = false;
-
-
+        //重新设计
+        news news=new news();
+        news.setSpecialNotice(content);
+        newsDaoOperate.save(news);
 
         //特殊通知
         return returnFlag;
@@ -129,7 +135,6 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
         //特殊通知
         return news;
     }
-
    /* public void video(HttpServletResponse response,String vidoePath){
 
         File file = new File(vidoePath);
@@ -154,5 +159,25 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
         }
     }
 */
+
+    @RequestMapping(value = "/makeVideoTopOperate.json",method = RequestMethod.GET)
+    @ResponseBody
+    public void makeVideoTopOperate(@RequestParam( value="path",required=true) String path ) {
+        /*https://blog.csdn.net/qq_40979624/article/details/105293900*/
+        //视频上传
+         System.out.println("输出视频地址"+path);
+        httpVideos.setPath(path.toString());
+    }
+
+
+   public void getBase64Code(File file) throws Exception{
+
+       File files = file;
+       FileInputStream inputStream=new FileInputStream(files);
+       byte[] buffer = new byte[(int)file.length()];
+       inputStream.read(buffer);
+       inputStream.close();
+
+   }
 
 }

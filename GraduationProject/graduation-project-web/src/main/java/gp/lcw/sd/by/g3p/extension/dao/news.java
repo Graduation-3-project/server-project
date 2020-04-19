@@ -28,6 +28,7 @@ public class news  extends BaseEntity{
     @Column
     String picsMsg;//图片轮播图
 
+    @Column
     boolean picsMsgTop;//图片置顶
 
     @Column
@@ -35,7 +36,6 @@ public class news  extends BaseEntity{
 
     @Column
     boolean specialNoticeTopFlag;//特殊通告置顶
-
 
     //@Column
     //ArrayList<String> specialNotice = new ArrayList<String>();//特殊通告

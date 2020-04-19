@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f74367-18b5-41db-8156-3abedb35b550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/newsVideos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsVideosDaoOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newsVideosImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsVideosManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/news.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/news.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/NewsPageOperate.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/NewsPageOperate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsMessageController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,7 +96,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="155" />
+          <entry key="java" value="171" />
           <entry key="properties" value="16" />
           <entry key="rest" value="1" />
           <entry key="xml" value="28" />
@@ -104,7 +108,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTTP Request" value="1" />
-          <entry key="JAVA" value="155" />
+          <entry key="JAVA" value="171" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="16" />
           <entry key="XML" value="28" />
@@ -114,7 +118,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="7725" />
+          <entry key="java" value="9057" />
           <entry key="properties" value="785" />
           <entry key="xml" value="441" />
           <entry key="yml" value="834" />
@@ -122,7 +126,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7725" />
+          <entry key="JAVA" value="9057" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="785" />
           <entry key="XML" value="441" />
@@ -133,14 +137,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/NewsPageOperate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+            <state relative-caret-position="150">
+              <caret line="163" column="17" lean-forward="true" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#specialNotice#0;class#NewsPageOperate#0" />
+                <element signature="method#getAllMessage#0;class#NewsPageOperate#0" />
               </folding>
             </state>
           </provider>
@@ -149,8 +154,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/httpVideos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="296">
+              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsVideosDaoOperate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,29 +177,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/Ch1Application.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Delete#0;class#newsVideo#0" />
+                <element signature="method#makeTop#0;class#newsVideo#0" />
+                <element signature="method#saveVideoInFile#0;class#newsVideo#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsMessageController.java">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/newsVideos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="290">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1224#1289#0" />
-                <element signature="method#newsDelete#0;class#newsMessageController#0" />
-                <element signature="method#newsMakeTop#0;class#newsMessageController#0" />
-                <element signature="method#getConfiguration#0;class#newsMessageController#0" />
-                <element signature="method#freemaker#0;class#newsMessageController#0" />
-                <element signature="method#saveAsTxt#0;class#newsMessageController#0" />
-                <element signature="method#setFile#0;class#newsMessageController#0" />
               </folding>
             </state>
           </provider>
@@ -199,22 +217,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/news.java">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/newsMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="250">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -231,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsDaoOperate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -270,12 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsMessageManager.java" />
-        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newsMessageImpl.java" />
-        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/userController.java" />
-        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/statisticalDataDaoOperat.java" />
-        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/statisticalDataManager.java" />
-        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/statisticalData.java" />
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/cityDistributionMsg.java" />
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/cityDistributionMsgDaoOperate.java" />
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/statisticalDataImpl.java" />
@@ -320,6 +320,12 @@
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/httpVideos.java" />
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsMessageController.java" />
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/news.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsVideosManager.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newsVideosImpl.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsVideosDaoOperate.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsVideos.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/newsVideos.java" />
+        <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsVideo.java" />
         <option value="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/NewsPageOperate.java" />
       </list>
     </option>
@@ -449,6 +455,17 @@
               <item name="extension" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="News" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation-project-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="g3p" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceManager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -600,12 +617,12 @@
       <workItem from="1587096748356" duration="8387000" />
       <workItem from="1587112623239" duration="10170000" />
       <workItem from="1587179204491" duration="24314000" />
-      <workItem from="1587268326898" duration="5265000" />
+      <workItem from="1587268326898" duration="17311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183353000" />
+    <option name="totallyTimeSpent" value="195399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +645,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4541213" weight="0.32888147" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.44790047" weight="0.25208682" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4984448" weight="0.32888147" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.85769826" weight="0.4040067" />
@@ -638,11 +655,11 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4976672" weight="0.32888147" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4992224" weight="0.40233722" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7115086" weight="0.5475793" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17029549" side_tool="true" visible="true" weight="0.12854758" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1726283" side_tool="true" visible="true" weight="0.30717862" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4984448" weight="0.32888147" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.8297045" visible="true" weight="0.12854758" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.8273717" visible="true" weight="0.30717862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -662,24 +679,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graduation-project-base/src/main/java/eureka/server/rest/rest.java" />
-    <entry file="file://$PROJECT_DIR$/graduation-project-base/src/main/resources/application.properties____" />
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/DaoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/base/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-base/src/main/java/eureka/server/Application.java" />
-    <entry file="file://$PROJECT_DIR$/graduation-project-service/src/main/java/eureka/highclient/HighClientApplication.java" />
     <entry file="file://$PROJECT_DIR$/graduation-project-dao/src/main/java/eureka/client/HelloApplication.java" />
     <entry file="file://$PROJECT_DIR$/graduation-project-base/src/main/resources/application.yml___" />
     <entry file="file://$PROJECT_DIR$/graduation-project-dao/src/main/resources/application.properties" />
@@ -796,24 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/tengXunYunMessageService/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -845,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsMessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newImpl.java" />
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -873,51 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newsMessageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/cityDistributionMsgDaoOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsDaoOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/userDaoOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/Ch1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,10 +882,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsMessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/newsVideosManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newsVideosImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/newsMessageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/news.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/cityDistributionMsgDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/userDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsVideos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsVideosDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -957,21 +996,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/httpVideos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="296">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/NewsPageOperate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        <state relative-caret-position="150">
+          <caret line="163" column="17" lean-forward="true" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#specialNotice#0;class#NewsPageOperate#0" />
+            <element signature="method#getAllMessage#0;class#NewsPageOperate#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/newsVideos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/News/newsVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Delete#0;class#newsVideo#0" />
+            <element signature="method#makeTop#0;class#newsVideo#0" />
+            <element signature="method#saveVideoInFile#0;class#newsVideo#0" />
           </folding>
         </state>
       </provider>
