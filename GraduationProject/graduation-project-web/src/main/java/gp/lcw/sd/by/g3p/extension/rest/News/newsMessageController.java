@@ -81,8 +81,11 @@ public class newsMessageController extends GenericController<newsMessage,Long, n
 
     @RequestMapping("/delete.json")
     @ResponseBody
-    public boolean newsDelete() {
+    public boolean newsDelete(@RequestParam(name = "id",required = true)Long id) {
         boolean returnFlag = false;
+
+      newsMessageDaoOperate.deleteById(id);
+      returnFlag =true;
 
         return returnFlag;
     }
@@ -105,18 +108,34 @@ public class newsMessageController extends GenericController<newsMessage,Long, n
         return returnFlag;
     }
 
-    @RequestMapping("/top.json")
+    @RequestMapping(value = "/top.json",method = RequestMethod.GET)
     @ResponseBody
-    public boolean newsMakeTop() {
+    public boolean newsMakeTop(@RequestParam(name = "id",required = true) Long id) {
         boolean returnFlag = false;
 
-
+          newsMessage newsMessage=newsMessageDaoOperate.findById(id).get();
+          newsMessage.setTopFlag("true");
+          newsMessageDaoOperate.save(newsMessage);
+          returnFlag=true;
         return returnFlag;
     }
     /*   map.put("type", "String");
          map.put("name", "testName");
           D:\JAVA\WorkSpace\freemaker\src\main\resources\testEntity.ftl
      */
+;
+    @RequestMapping(value = "/cancelTop.json",method = RequestMethod.GET)
+    @ResponseBody
+    public boolean cancelMakeTop(@RequestParam(name = "id",required = true) Long id) {
+        boolean returnFlag = false;
+
+        newsMessage newsMessage=newsMessageDaoOperate.findById(id).get();
+        newsMessage.setTopFlag("false");
+        newsMessageDaoOperate.save(newsMessage);
+        returnFlag=true;
+        return returnFlag;
+    }
+
 
 
 

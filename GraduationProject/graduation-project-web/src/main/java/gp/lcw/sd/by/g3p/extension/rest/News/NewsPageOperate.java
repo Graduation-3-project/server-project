@@ -33,12 +33,11 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
     @Autowired
     httpVideos httpVideos;
 
-    @RequestMapping("/ads.json")
+    @RequestMapping("/pics.json")
     @ResponseBody
-    public boolean ads(@RequestParam("file") MultipartFile[] files) {
-           boolean returnFlag=false;
+    public String ads(@RequestParam("file") MultipartFile[] files) {
+           String returnFlag;
 /*https://blog.csdn.net/weixin_44294593/article/details/103070687*/
-        System.out.println("输出视频大小"+files[0].getSize());
         String path="E:\\newsMessage\\Pic";
         File file=new File(path);
         if(!file.exists())//文件夹不存在就创建
@@ -48,19 +47,20 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
         //保存文件
         try {
             files[0].transferTo(new File(file+"\\"+files[0].getOriginalFilename()+""));
-
+            returnFlag="上传成功";
         } catch (IOException e) {
-
+            returnFlag="上传失败";
             e.printStackTrace();
         }
-
+        news news=new news();
         //广告信息
         return returnFlag;
     }
 
     @RequestMapping("/videoUrl.json")
     @ResponseBody
-    public void videoUrl(@RequestParam( value="file",required=false) MultipartFile multipartFile, HttpServletRequest request) {
+    public String videoUrl(@RequestParam( value="file",required=false) MultipartFile multipartFile, HttpServletRequest request) {
+        String returnFlag;
         news news=new news();
         news.setNewsPageVideoUrl(multipartFile.getOriginalFilename());
         newsDaoOperate.save(news);
@@ -95,18 +95,17 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
         //保存文件
         try {
             multipartFile.transferTo(new File(file+"\\"+name+""));
-           //returnFlag="上传成功";
+           returnFlag="上传成功";
         } catch (IOException e) {
-            //returnFlag="上传失败";
+            returnFlag="上传失败";
             e.printStackTrace();
         }
-
-
 
        // httpVideos.path=path+multipartFile.getOriginalFilename();
         httpVideos.setPath(path+"\\"+multipartFile.getOriginalFilename());
        // video(response,"E:\\newsMessage\\Videos\\"+multipartFile.getOriginalFilename());
         //视频地址
+        return  returnFlag;
     }
 
     @RequestMapping("/specialNotice.json")

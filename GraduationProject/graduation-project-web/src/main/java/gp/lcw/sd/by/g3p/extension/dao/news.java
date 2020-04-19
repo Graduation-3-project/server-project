@@ -22,11 +22,23 @@ public class news  extends BaseEntity{
     @Column
      String newsPageVideoUrl;
 
-    @Column
-    ArrayList<String> picsNewsMsg = new ArrayList<String>();//广告信息
+   // @Column
+    //ArrayList<String> picsNewsMsg = new ArrayList<String>();//广告信息
 
     @Column
-    ArrayList<String> specialNotice = new ArrayList<String>();//特殊通告
+    String picsMsg;//图片轮播图
+
+    boolean picsMsgTop;//图片置顶
+
+    @Column
+    String specialNotice;//特殊通告
+
+    @Column
+    boolean specialNoticeTopFlag;//特殊通告置顶
+
+
+    //@Column
+    //ArrayList<String> specialNotice = new ArrayList<String>();//特殊通告
 
     //  Set<String>picsNewsMsg=new HashSet<String>();
     @OneToMany(mappedBy = "news")
