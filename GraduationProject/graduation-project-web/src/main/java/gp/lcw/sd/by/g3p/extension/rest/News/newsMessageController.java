@@ -252,6 +252,29 @@ public class newsMessageController extends GenericController<newsMessage,Long, n
 
     }
 
+
+
+
+    @RequestMapping(value = "/AddClickNumber.json",method = RequestMethod.POST)
+    @ResponseBody
+    public void addClickNumber(@RequestParam(name = "id",required = true)Long id){
+
+
+        newsMessage newsMessage=new newsMessage();
+        newsMessage=newsMessageDaoOperate.findById(id).get();
+        String ClickNumber=newsMessage.getClickNumber();
+        int clicknumber = Integer.parseInt(ClickNumber);
+        clicknumber++;
+        ClickNumber=String.valueOf(clicknumber);
+        newsMessage.setClickNumber(ClickNumber);
+        newsMessageDaoOperate.save(newsMessage);
+
+
+    }
+
+
+
+
     private static String saveTxtFilePath = "E:\\newsMessage\\test.html";
     @RequestMapping(value = "/saveAsTxt.json", method = RequestMethod.POST)
     @ResponseBody

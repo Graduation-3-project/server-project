@@ -170,6 +170,7 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
     }
 
 
+
    public void getBase64Code(File file) throws Exception{
 
        File files = file;

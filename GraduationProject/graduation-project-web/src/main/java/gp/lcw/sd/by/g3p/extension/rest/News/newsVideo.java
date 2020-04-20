@@ -33,7 +33,7 @@ public class newsVideo extends GenericController<newsVideos,Long, newsVideosMana
 
         newsVideos newsVideos=new newsVideos();
         newsVideos.setPointNumber(0);
-        newsVideos.setTopFlag("true");
+        newsVideos.setTopFlag("false");
         newsVideos.setVideoName(name);
         newsVideos.setVideoUrl("E:\\newsMessage\\Videos\\"+name);
         newsVideosDaoOperate.save(newsVideos);
@@ -49,12 +49,13 @@ public class newsVideo extends GenericController<newsVideos,Long, newsVideosMana
     }
 
     @RequestMapping(value = "/Delete.json",method = RequestMethod.POST)
-    public String Delete(){
+    public String Delete(@RequestParam(name = "id",required = true)Long id){
 
-        String returnFlag="";
+        String returnFlag;
 
+        newsVideosDaoOperate.deleteById(id);
 
-
+        returnFlag="删除成功";
         return  returnFlag;
 
     }
