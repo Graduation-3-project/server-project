@@ -6,56 +6,34 @@ import gp.lcw.sd.by.g3p.extension.domain.userDaoOperate;
 import gp.lcw.sd.by.g3p.extension.serviceManager.userManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
-@Repository("/user")
+@RequestMapping("/user")
 public class userController  extends GenericController<users,Long, userManager> {
 
 
     @Autowired
     userDaoOperate userDaoOperate;
 
-    @RequestMapping("add")
-    public boolean userAdd(){
-
-        boolean returnFlag=false;
-
-
-
-
+    @RequestMapping(value = "/delete.json",method = RequestMethod.POST)
+    @ResponseBody
+    public String userDelete(@RequestParam(name = "id",required = true) Long id){
+        String returnFlag;
+        userDaoOperate.deleteById(id);
+        returnFlag="删除成功";
         return  returnFlag;
     }
-    @RequestMapping("delete")
-    public boolean userDelete(){
+    @RequestMapping(value = "/findAll.json", method = RequestMethod.GET)
+    @ResponseBody
+    public List<users> usersfindAll(){
 
-        boolean returnFlag=false;
+     List<users>usersLists=userDaoOperate.findAll();
 
-
-
-
-        return  returnFlag;
-    }
-    @RequestMapping("updata")
-    public boolean userUpdata(){
-
-        boolean returnFlag=false;
-
-
-
-
-        return  returnFlag;
-    }
-    @RequestMapping("check")
-    public boolean userCheck(){
-
-        boolean returnFlag=false;
-
-
-
-
-        return  returnFlag;
+    System.out.println("输出用户数组长度"+usersLists.size());
+     return usersLists;
     }
 
 }

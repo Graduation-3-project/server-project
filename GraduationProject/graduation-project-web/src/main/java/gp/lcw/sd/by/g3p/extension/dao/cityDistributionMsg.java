@@ -34,5 +34,4 @@ public class cityDistributionMsg extends BaseEntity {
     @Column
     String womanProportion;
 
-
 }
