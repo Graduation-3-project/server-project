@@ -9,6 +9,7 @@ import java.io.IOException;
 public class SendMessage {
     private Data smsParameter = new Data();
 
+/*短信服务内容测试*/
 
 
     public void testSendMessage(){
