@@ -3,9 +3,8 @@ package gp.lcw.sd.by.g3p.extension.dao;
 import gp.lcw.sd.by.g3p.base.domain.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+
+import javax.persistence.*;
 
 
 @Getter
@@ -29,8 +28,8 @@ public class users extends BaseEntity {
     @Column
     String userLoginFlag;//登录标志
 
-    @Column
-    String userCity;//所在城市
+    //@Column
+    //String userCity;//所在城市
 
     @Column
     String userTel;//电话号码就是账号
@@ -56,4 +55,7 @@ public class users extends BaseEntity {
     @Column
     String userSetCookiFlag;//是否记住密码标志
 
+    @JoinColumn(name = "id",referencedColumnName = "id")
+    @OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.LAZY)
+    private location location;
 }

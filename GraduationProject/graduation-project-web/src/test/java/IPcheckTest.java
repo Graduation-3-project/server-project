@@ -9,6 +9,6 @@ public class IPcheckTest {
     @Test
     public void test(){
         IPcheck iPcheck=new IPcheck();
-        iPcheck.getIP();
+       // iPcheck.getIP();
     }
 }
