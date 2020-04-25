@@ -19,7 +19,8 @@ public class locationControlller extends GenericController<location,Long, locati
     locationDaoOperate locationDaoOperate;
 
 
-    public location location=new location();
+    //public location location=new location();
+/*
 
     public void setLocation(location location){
         this.location =location;
@@ -27,6 +28,7 @@ public class locationControlller extends GenericController<location,Long, locati
     public void add(){
         locationDaoOperate.save(this.location);
     }
+*/
 
 
 

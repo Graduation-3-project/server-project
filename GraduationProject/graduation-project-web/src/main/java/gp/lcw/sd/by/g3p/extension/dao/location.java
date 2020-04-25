@@ -1,5 +1,6 @@
 package gp.lcw.sd.by.g3p.extension.dao;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import gp.lcw.sd.by.g3p.base.domain.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -23,5 +24,12 @@ public class location extends BaseEntity {
     @Column
     public String country;//所在国家
 
+
+    //@OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.EAGER,mappedBy = "users")
+   // @OneToOne
+    //@JoinColumn(name = "user_id")
+   // @PrimaryKeyJoinColumn
+    //@OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.EAGER,mappedBy = "location")
+   // public users users;
 
 }

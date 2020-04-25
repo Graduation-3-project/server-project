@@ -1,5 +1,6 @@
 package gp.lcw.sd.by.g3p.extension.dao;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import gp.lcw.sd.by.g3p.base.domain.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -55,7 +56,10 @@ public class users extends BaseEntity {
     @Column
     String userSetCookiFlag;//是否记住密码标志
 
-    @JoinColumn(name = "id",referencedColumnName = "id")
-    @OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.LAZY)
+    //@OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.LAZY)
+    //@JoinColumn(name = "location_id",referencedColumnName = "id")
+    //@JoinColumn(name = "location_id")
+    // @PrimaryKeyJoinColumn
+    @OneToOne(cascade = {CascadeType.ALL})
     private location location;
 }
