@@ -21,6 +21,10 @@ public class login {
                                @RequestParam(name = "password",required = true) String password){
 
         users users=userDaoOperate.findByUserTel(account);
+        if(users.getUserPassword().equals(password)){
+            users.setUserLoginFlag("true");
+            userDaoOperate.save(users);
+        }
        /* if(users!=null&&users.getUserPassword()==password){
             this.loginFlag=true;
         }*/
@@ -29,5 +33,24 @@ public class login {
       //  return this.loginFlag;
         return users;
     }
+
+
+    @RequestMapping(path = "/quitLogin.json",method = RequestMethod.POST)
+    public users quitLogin(@RequestParam(name = "id",required = true) Long id)
+    {
+
+        users users=userDaoOperate.findById(id).get();
+            users.setUserLoginFlag("false");
+            userDaoOperate.save(users);
+
+       /* if(users!=null&&users.getUserPassword()==password){
+            this.loginFlag=true;
+        }*/
+
+
+        //  return this.loginFlag;
+        return users;
+    }
+
 
 }
