@@ -43,6 +43,31 @@ public class userController  extends GenericController<users,Long, userManager> 
         returnFlag="删除成功";
         return  returnFlag;
     }
+
+    @RequestMapping(value = "/passwordUpdate.json",method = RequestMethod.POST)
+    @ResponseBody
+    public String passwordUpdate(@RequestParam(name = "id",required = true) Long id,
+                                 @RequestParam(name = "userPassword",required = true) String userPassword){
+        String returnFlag;
+        users users= userDaoOperate.findById(id).get();
+        users.setUserPassword(userPassword);
+        userDaoOperate.save(users);
+        returnFlag="修改成功";
+        return  returnFlag;
+    }
+
+
+
+
+
+    @RequestMapping(value = "/findOneUser.json",method = RequestMethod.GET)
+    @ResponseBody
+    public users findOneUser(@RequestParam(name = "id",required = true) Long id){
+
+
+       return userDaoOperate.findById(id).get();
+    }
+
     @RequestMapping(value = "/findAll.json", method = RequestMethod.GET)
     @ResponseBody
     public List<users> usersfindAll(){
@@ -64,10 +89,12 @@ public class userController  extends GenericController<users,Long, userManager> 
         //System.out.println("输出location"+location.getCity());
 
         users users=userDaoOperate.findById(id).get();
+
        // location.setUsers(users);
         users.setLocation(location);
         users.setUserAge(userAge);
         users.setUserGender(userGender);
+        users.setUserFinishMsgFlag("true");
         userDaoOperate.save(users);
        // List<users>usersLists=userDaoOperate.findAll();
         //System.out.println("输出用户数组长度"+usersLists.size());

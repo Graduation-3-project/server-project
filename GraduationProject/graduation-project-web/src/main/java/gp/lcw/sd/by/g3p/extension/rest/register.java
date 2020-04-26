@@ -71,6 +71,7 @@ public class register {
         users.setUserPassword(password);
         users.setUserType("user");
         users.setUserRegisterFlag("true");
+        users.setUserFinishMsgFlag("false");
         userDaoOperate.save(users);
 
         return 1;

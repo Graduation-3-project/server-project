@@ -56,6 +56,9 @@ public class users extends BaseEntity {
     @Column
     String userSetCookiFlag;//是否记住密码标志
 
+    @Column
+    String userFinishMsgFlag;//完成信息标志
+
     //@OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.LAZY)
     //@JoinColumn(name = "location_id",referencedColumnName = "id")
     //@JoinColumn(name = "location_id")
