@@ -29,8 +29,6 @@ public class users extends BaseEntity {
     @Column
     String userLoginFlag;//登录标志
 
-    //@Column
-    //String userCity;//所在城市
 
     @Column
     String userTel;//电话号码就是账号
@@ -58,6 +56,12 @@ public class users extends BaseEntity {
 
     @Column
     String userFinishMsgFlag;//完成信息标志
+
+    @Lob
+    @Basic(fetch=FetchType.LAZY)
+    @Column(name = "userProfile",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写要加上name
+    String userProfile;  //用户图像
+
 
     //@OneToOne(cascade = {CascadeType.ALL},fetch = FetchType.LAZY)
     //@JoinColumn(name = "location_id",referencedColumnName = "id")
