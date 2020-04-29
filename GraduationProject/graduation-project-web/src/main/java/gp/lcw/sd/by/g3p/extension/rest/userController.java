@@ -58,8 +58,6 @@ public class userController  extends GenericController<users,Long, userManager> 
 
 
 
-
-
     @RequestMapping(value = "/findOneUser.json",method = RequestMethod.GET)
     @ResponseBody
     public users findOneUser(@RequestParam(name = "id",required = true) Long id){
@@ -118,5 +116,20 @@ public class userController  extends GenericController<users,Long, userManager> 
        // System.out.println("输出用户数组长度"+usersLists.size());
         return usersList;
     }
+
+
+    @RequestMapping(value = "/modifyUserMsg.json",method = RequestMethod.POST)
+    @ResponseBody
+    public String modifyUserMsg(@RequestParam(name = "id",required = true) Long id,
+                               @RequestParam(name = "userScreenName",required = true)String userScreenName,
+                               @RequestParam(name = "userProfileUrl",required = true)String userProfileUrl){
+      String returnFlag;
+        users users=userDaoOperate.findById(id).get();
+
+
+        returnFlag="修改成功";
+        return returnFlag;
+    }
+
 
 }

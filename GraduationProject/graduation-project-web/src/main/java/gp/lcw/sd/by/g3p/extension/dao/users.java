@@ -39,7 +39,10 @@ public class users extends BaseEntity {
     @Column
     String userPassword;//密码
 
-    @Column
+
+    @Lob
+    @Basic(fetch=FetchType.LAZY)
+    @Column(name = "userProfileUrl",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写要加上name
     String userProfileUrl;//用户图像
 
     @Column
