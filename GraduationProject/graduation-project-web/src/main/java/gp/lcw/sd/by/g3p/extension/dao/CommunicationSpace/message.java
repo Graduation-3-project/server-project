@@ -18,11 +18,13 @@ public class message extends BaseEntity {
 
 
     @Column
-    String message_title;//消息标题
+    String messageTitle;//消息标题
 
-    @Column
-    String message_content;//消息内容
 
+    @Lob
+    @Basic(fetch=FetchType.LAZY)
+    @Column(name = "messageContent",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写要加上name
+    String messageContent;//消息内容
 
     @Column
     String message_type;//种类
@@ -33,10 +35,14 @@ public class message extends BaseEntity {
     @Column
     Integer message_goodPointNumber;//点赞数目
 
-    @Lob
-    @Basic(fetch = FetchType.LAZY)
-    @Column(name = "picsUrl", columnDefinition = "mediumblob")/*mediumblob一行可以存储16MB*/
-    List<String>picsList;
+    //@Lob
+    //@Basic(fetch = FetchType.LAZY)
+    //@Column(name = "picsList", columnDefinition = "mediumblob")//mediumblob一行可以存储16MB
+    //String[]picsList;
+
+    @OneToMany(cascade = CascadeType.ALL)/*,mappedBy = "messageOne"s*///单向关联
+    List<messagePics>messagePicsList;
+
 
     @OneToMany(cascade = CascadeType.ALL,mappedBy = "message")
     Set<messageComment>messageCommentSet=new HashSet<messageComment>();

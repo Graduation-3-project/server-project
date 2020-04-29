@@ -29,7 +29,7 @@ public class messageComment extends BaseEntity {
     String messageToUserName;//发给谁的
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id",insertable = false,updatable = false)
+   /* @JoinColumn(name = "id",insertable = false,updatable = false)*/
     message message;
 
     @OneToMany(cascade = CascadeType.ALL,mappedBy = "messageComment")
