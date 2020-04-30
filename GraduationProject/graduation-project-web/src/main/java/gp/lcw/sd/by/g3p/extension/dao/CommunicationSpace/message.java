@@ -1,6 +1,7 @@
 package gp.lcw.sd.by.g3p.extension.dao.CommunicationSpace;
 
 import gp.lcw.sd.by.g3p.base.domain.BaseEntity;
+import gp.lcw.sd.by.g3p.extension.dao.users;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -19,8 +20,7 @@ public class message extends BaseEntity {
 
     @Column
     String messageTitle;//消息标题
-
-
+    
     @Lob
     @Basic(fetch=FetchType.LAZY)
     @Column(name = "messageContent",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写要加上name
@@ -46,4 +46,7 @@ public class message extends BaseEntity {
 
     @OneToMany(cascade = CascadeType.ALL,mappedBy = "message")
     Set<messageComment>messageCommentSet=new HashSet<messageComment>();
+
+  //  @ManyToOne(cascade = CascadeType.ALL)
+   // users users;
 }

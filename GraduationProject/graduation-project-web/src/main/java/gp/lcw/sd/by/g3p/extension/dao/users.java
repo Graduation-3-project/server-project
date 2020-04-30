@@ -2,10 +2,12 @@ package gp.lcw.sd.by.g3p.extension.dao;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import gp.lcw.sd.by.g3p.base.domain.BaseEntity;
+import gp.lcw.sd.by.g3p.extension.dao.CommunicationSpace.message;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 
 @Getter
@@ -42,7 +44,7 @@ public class users extends BaseEntity {
 
     @Lob
     @Basic(fetch=FetchType.LAZY)
-    @Column(name = "userProfileUrl",columnDefinition = "LONGTEXT")  //columnDefinition 赋值要大写要加上name
+    @Column(name = "userProfileUrl",columnDefinition = "mediumblob")  //columnDefinition 赋值要大写要加上name
     String userProfileUrl;//用户图像
 
     @Column
@@ -72,4 +74,7 @@ public class users extends BaseEntity {
     // @PrimaryKeyJoinColumn
     @OneToOne(cascade = {CascadeType.ALL})
     private location location;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    List<message>messageList;
 }

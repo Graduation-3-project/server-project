@@ -20,7 +20,6 @@ public class messagePics extends BaseEntity  {
     @Column(name = "picData", columnDefinition = "mediumblob")/*mediumblob一行可以存储16MB*/
     String picData;
 
-
     //@ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     //@JoinColumn(name = "id",insertable = false,updatable = false)/*  @JsonIgnore*/
     //message messageOne;

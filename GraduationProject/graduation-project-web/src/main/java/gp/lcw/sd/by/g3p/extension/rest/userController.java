@@ -9,6 +9,7 @@ import gp.lcw.sd.by.g3p.extension.serviceManager.userManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.HtmlUtils;
 
 import java.util.List;
 import java.util.Set;
@@ -123,9 +124,12 @@ public class userController  extends GenericController<users,Long, userManager> 
     public String modifyUserMsg(@RequestParam(name = "id",required = true) Long id,
                                @RequestParam(name = "userScreenName",required = true)String userScreenName,
                                @RequestParam(name = "userProfileUrl",required = true)String userProfileUrl){
-      String returnFlag;
+        String returnFlag;
+        String returnHtml = HtmlUtils.htmlUnescape(userProfileUrl);
         users users=userDaoOperate.findById(id).get();
-
+        users.setUserScreenName(userScreenName);
+        users.setUserProfileUrl(returnHtml);
+        userDaoOperate.save(users);
 
         returnFlag="修改成功";
         return returnFlag;
