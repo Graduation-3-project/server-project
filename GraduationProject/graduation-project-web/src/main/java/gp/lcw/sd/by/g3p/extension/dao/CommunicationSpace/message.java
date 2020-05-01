@@ -44,8 +44,8 @@ public class message extends BaseEntity {
     List<messagePics>messagePicsList;
 
 
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "message")
-    Set<messageComment>messageCommentSet=new HashSet<messageComment>();
+    @OneToMany(cascade = CascadeType.ALL)/*,mappedBy = "message"*/
+    List<messageComment>messageCommentSet;
 
   //  @ManyToOne(cascade = CascadeType.ALL)
    // users users;

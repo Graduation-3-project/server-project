@@ -19,13 +19,23 @@ public class messageCommentReply extends BaseEntity {
     String replyCommentContent;//评论内容
 
     @Column
-    String messageFromUserName;//谁发的
+    Long messageFromUserId;//发表回复人的id
 
     @Column
-    String messageToUserName;//发给谁的
+    Long messageToUserId;//接收回复人的id
 
+    @Column
+    String   messageFromUserName;//发表回复人的昵称
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id",insertable = false,updatable = false)
-    messageComment messageComment;
+    @Column
+    String messageToUserName;//接收回复人的昵称
+
+    @Column
+    Long messageId;
+
+    @Column
+    Long messageCommentId;
+    //@ManyToOne(cascade = CascadeType.ALL)
+    //@JoinColumn(name = "id",insertable = false,updatable = false)
+    //messageComment messageComment;
 }
