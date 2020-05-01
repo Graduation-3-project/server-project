@@ -78,8 +78,6 @@ public class messageCommentController  extends GenericController<messageComment,
     @RequestMapping(value = "/findById.json",method = RequestMethod.POST)
     public message findById(@RequestParam(name = "id",required = true) Long id){
         //找一个动态的所有评论
-        String returnFlag;
-
        message message=messageDaoOperate.findById(id).get();
 
 

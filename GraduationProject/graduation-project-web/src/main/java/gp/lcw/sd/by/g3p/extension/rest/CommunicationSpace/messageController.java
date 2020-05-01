@@ -105,6 +105,14 @@ public class messageController extends GenericController<message,Long, messageMa
         return  messageList;
     }
 
+    @RequestMapping(value = "/messageGetOne.json",method = RequestMethod.GET)
+    @ResponseBody
+    public message messageGetOne(@RequestParam(name = "id",required = true)Long id){
+
+        message message=messageDaoOperate.findById(id).get();
+        return  message;
+    }
+
     @RequestMapping(value = "/Check",method = RequestMethod.GET)
     @ResponseBody
     public boolean messageCheck(){
