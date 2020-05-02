@@ -64,7 +64,8 @@ public class messageCommentController  extends GenericController<messageComment,
 
         returnFlag="发表成功";
         return  returnFlag;
-    } @ResponseBody
+    }
+    @ResponseBody
     @RequestMapping(value = "/delete.json",method = RequestMethod.POST)
     public String delete(@RequestParam(name = "id",required = true) Long id,
                       @RequestParam(name = "userId",required = true)Long userId,
@@ -74,12 +75,12 @@ public class messageCommentController  extends GenericController<messageComment,
 
         returnFlag="发表成功";
         return  returnFlag;
-    } @ResponseBody
+    }
+    @ResponseBody
     @RequestMapping(value = "/findById.json",method = RequestMethod.POST)
     public message findById(@RequestParam(name = "id",required = true) Long id){
         //找一个动态的所有评论
        message message=messageDaoOperate.findById(id).get();
-
 
         return  message;
     }
