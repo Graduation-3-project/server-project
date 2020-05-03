@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f74367-18b5-41db-8156-3abedb35b550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/administratorDaoOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/administratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/administratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/administratorManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +56,7 @@
     <session id="706132358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.108" value="1" />
@@ -96,19 +90,20 @@
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.85" value="2" />
           <entry key="project.open.time.87" value="2" />
           <entry key="project.open.time.89" value="1" />
           <entry key="project.open.time.91" value="2" />
           <entry key="project.open.time.93" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="368" />
+          <entry key="java" value="370" />
           <entry key="properties" value="17" />
           <entry key="rest" value="1" />
           <entry key="xml" value="32" />
@@ -121,7 +116,7 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTTP Request" value="1" />
-          <entry key="JAVA" value="368" />
+          <entry key="JAVA" value="370" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="17" />
           <entry key="XML" value="32" />
@@ -151,34 +146,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/administrator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/administratorDaoOperate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="200">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/administratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="207">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,10 +179,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/Ch1Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/userDaoOperate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -219,7 +213,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/administratorManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="75">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -232,7 +226,7 @@
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/locationManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -241,7 +235,7 @@
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/locationImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -250,7 +244,7 @@
         <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsDaoOperate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -367,6 +361,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GraduationProject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="graduationprojectweb" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -498,18 +504,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GraduationProject" type="58d84e3e:PackageViewProjectNode" />
-              <item name="graduationprojectweb" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -694,7 +688,8 @@
       <workItem from="1588242030113" duration="5795000" />
       <workItem from="1588299575419" duration="16281000" />
       <workItem from="1588333271284" duration="2990000" />
-      <workItem from="1588389826560" duration="5185000" />
+      <workItem from="1588389826560" duration="5498000" />
+      <workItem from="1588421785027" duration="1568000" />
     </task>
     <servers />
   </component>
@@ -731,7 +726,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379330000" />
+    <option name="totallyTimeSpent" value="381211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,7 +741,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35410336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3594225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -764,11 +759,11 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4976672" weight="0.32888147" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4992224" weight="0.40233722" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.70995337" weight="0.36560935" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23404256" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13145897" side_tool="true" visible="true" weight="0.35303777" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4984448" weight="0.32888147" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.7659575" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.86854106" visible="true" weight="0.35303777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -813,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#973#986#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,13 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2400">
           <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#messageDelete#0;class#messageController#0" />
-            <element signature="method#messageUpdata#0;class#messageController#0" />
-            <element signature="method#messageCheck#0;class#messageController#0" />
-            <element signature="method#messagepicSave#0;class#messageController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,6 +1018,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/CommunicationSpace/messageCommentReply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentReplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messagePicsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/CommunicationSpace/messageComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/CommunicationSpace/messagePics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/administratorDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/administratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/userDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/administratorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/locationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/locationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsDaoOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/administratorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1051,145 +1153,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/CommunicationSpace/messageCommentReply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentReplyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messagePicsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/CommunicationSpace/messageComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/CommunicationSpace/messagePics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/newsDaoOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/locationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/locationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceManager/administratorManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/serviceImpl/administratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/dao/administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/administratorDaoOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/messageCommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/domain/userDaoOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduation-project-web/src/main/java/gp/lcw/sd/by/g3p/extension/rest/CommunicationSpace/administratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
