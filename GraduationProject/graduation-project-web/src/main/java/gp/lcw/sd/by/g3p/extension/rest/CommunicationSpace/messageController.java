@@ -78,12 +78,13 @@ public class messageController extends GenericController<message,Long, messageMa
         return  returnFlag;
     }
 
-    @RequestMapping(value = "/Delete",method = RequestMethod.POST)
+    @RequestMapping(value = "/Delete.json",method = RequestMethod.POST)
     @ResponseBody
-    public boolean messageDelete(){
-        Boolean returnFlag=false;
+    public String messageDelete(@RequestParam(name = "id",required = true)Long id){
+        String returnFlag;
+        messageDaoOperate.deleteById(id);
 
-
+        returnFlag="删除成功";
         return  returnFlag;
     }
 
