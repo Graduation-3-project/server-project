@@ -62,6 +62,9 @@ public class messageController extends GenericController<message,Long, messageMa
             message.setMessageTitle(messageTitle);
             message.setMessageContent(messageContent);
             message.setMessage_goodPointNumber(0);
+            message.setMessageCountry(user.getLocation().getCountry());
+            message.setMessageCity(user.getLocation().getCity());
+            message.setMessageRegin(user.getLocation().getRegion());
             user.getMessageList().add(message);
             userDaoOperate.save(user);
             messageDaoOperate.save(message);

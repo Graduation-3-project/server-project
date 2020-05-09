@@ -64,6 +64,7 @@ public class userController  extends GenericController<users,Long, userManager> 
     public users findOneUser(@RequestParam(name = "id",required = true) Long id){
 
 
+        System.out.println("findOneUser调用成功");
        return userDaoOperate.findById(id).get();
     }
 

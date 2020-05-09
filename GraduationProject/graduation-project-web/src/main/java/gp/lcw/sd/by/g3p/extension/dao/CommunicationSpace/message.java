@@ -35,6 +35,15 @@ public class message extends BaseEntity {
     @Column
     Integer message_goodPointNumber;//点赞数目
 
+    @Column
+    String messageCity;//城市信息
+
+    @Column
+    String messageCountry;//国家
+
+    @Column
+    String messageRegin;//省分
+
     //@Lob
     //@Basic(fetch = FetchType.LAZY)
     //@Column(name = "picsList", columnDefinition = "mediumblob")//mediumblob一行可以存储16MB
