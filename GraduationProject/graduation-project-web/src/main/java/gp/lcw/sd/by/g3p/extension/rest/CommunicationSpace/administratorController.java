@@ -6,10 +6,7 @@ import gp.lcw.sd.by.g3p.extension.dao.administrator;
 import gp.lcw.sd.by.g3p.extension.domain.administratorDaoOperate;
 import gp.lcw.sd.by.g3p.extension.serviceManager.administratorManager;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/administrator")
@@ -49,6 +46,15 @@ if(administratorDaoOperate.findByAccount(administrator.getAccount())!=null){
 return  returnFlag;
 }
 
+
+@GetMapping("/getOne")
+public administrator getOne(String account){
+
+
+    administrator administrator=administratorDaoOperate.findByAccount(account);
+
+    return administrator;
+}
 }
 
 
