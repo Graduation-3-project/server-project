@@ -23,4 +23,7 @@ public class administrator extends BaseEntity {
     @Column
     String password;
 
+    @Column
+    boolean loginFlag;
+
 }
