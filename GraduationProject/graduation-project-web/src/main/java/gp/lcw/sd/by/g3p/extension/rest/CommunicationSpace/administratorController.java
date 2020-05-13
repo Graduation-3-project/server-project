@@ -52,14 +52,23 @@ return  returnFlag;
 }
 
 
-@GetMapping("/getOne")
-public administrator getOne(String account){
-
-
-    administrator administrator=administratorDaoOperate.findByAccount(account);
-
-    return administrator;
+@PostMapping("/quitLogin")
+public void quitLogin(@RequestParam(name = "id",required = true) Long id){
+    administrator administrator=administratorDaoOperate.findById(id).get();
+    administrator.setLoginFlag(false);
+    administratorDaoOperate.save(administrator);
 }
+
+
+    @GetMapping("/getOne")
+    public administrator getOne(String account){
+
+
+        administrator administrator=administratorDaoOperate.findByAccount(account);
+
+        return administrator;
+    }
+
 }
 
 
