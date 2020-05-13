@@ -19,19 +19,26 @@ public class login {
     @RequestMapping(path = "/judeg.json",method = RequestMethod.GET)
     public users judeg_Login(@RequestParam(name = "account",required = true) String account,
                                @RequestParam(name = "password",required = true) String password){
-
         users users=userDaoOperate.findByUserTel(account);
+
         if(users.getUserPassword().equals(password)){
+            return users;
+        }else {
+            return null;
+        }
+
+    }
+
+
+    @RequestMapping(path = "/setLoginFlag.json",method = RequestMethod.POST)
+    public void setLoginFlag(@RequestParam(name = "account",required = true) String account){
+        users users=userDaoOperate.findByUserTel(account);
+
             users.setUserLoginFlag("true");
             userDaoOperate.save(users);
-        }
-       /* if(users!=null&&users.getUserPassword()==password){
-            this.loginFlag=true;
-        }*/
-
-      //  return this.loginFlag;
-        return users;
     }
+
+
 
 
     @RequestMapping(path = "/quitLogin.json",method = RequestMethod.POST)
