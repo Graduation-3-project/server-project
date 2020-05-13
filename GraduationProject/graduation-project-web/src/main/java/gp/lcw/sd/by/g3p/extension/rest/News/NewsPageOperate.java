@@ -180,5 +180,4 @@ public class NewsPageOperate extends GenericController<news,Long, newsManager> {
        inputStream.close();
 
    }
-
 }

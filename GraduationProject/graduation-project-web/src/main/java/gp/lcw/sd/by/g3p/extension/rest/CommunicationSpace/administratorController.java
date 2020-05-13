@@ -23,23 +23,28 @@ public String Add(@RequestBody administrator administrator0){
     administrator.setAccount(administrator0.getAccount());
     administrator.setPassword(administrator0.getPassword());
     administrator.setType(administrator0.getType());
+    administrator.setLoginFlag(false);
     administratorDaoOperate.save(administrator);
     returnFlag="添加成功";
     return  returnFlag;
 }
 @PostMapping("/login")
-public boolean login(@RequestBody administrator administrator) {
-boolean returnFlag=false;
+public String login(@RequestParam(name = "password" ,required = true) String password,
+                     @RequestParam(name = "account" ,required = true) String account) {
+    System.out.println("管理员登录接口");
+String returnFlag="false";
     administrator administrator1;
-if(administratorDaoOperate.findByAccount(administrator.getAccount())!=null){
-     administrator1=  administratorDaoOperate.findByAccount(administrator.getAccount());
-
-    if(administrator1.getPassword().equals(administrator.getPassword()))
+if(administratorDaoOperate.findByAccount(account)!=null){
+     administrator1=  administratorDaoOperate.findByAccount(account);
+     System.out.println("输出登录标识"+ administrator1.isLoginFlag());
+    if(administrator1.getPassword().equals(password)&&(administrator1.isLoginFlag()==false))
     {
-        returnFlag=true;
+        administrator1.setLoginFlag(true);
+        administratorDaoOperate.save(administrator1);
+        returnFlag="true";
     }
 }else {
-    returnFlag=false;
+    returnFlag="false";
 }
 
 

@@ -15,8 +15,6 @@ public class SendMessage {
     private Data smsParameter = new Data();
 /*https://www.jianshu.com/p/4c0d473d743e*/
 
-
-
     public void testSendMessage(String Contentofshortmessage){
         try {
             System.out.println("短信测试");
