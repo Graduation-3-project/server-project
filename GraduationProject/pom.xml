@@ -109,7 +109,7 @@
             <!--阿里云获取IP依赖-->
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.2.1</version>
+            <version>4.5.13</version>
         </dependency>
         <dependency>
             <!--阿里云获取IP依赖-->
